@@ -7,4 +7,4 @@ How to Setup UITableView Deffable Data Scoure
 3. Add New Contacts
      . Presenting SwiftUI UIHostingController
 4. Delete on Swipe
-5. Mark Vontact as Favorite
+5. Mark Contact as Favorite
