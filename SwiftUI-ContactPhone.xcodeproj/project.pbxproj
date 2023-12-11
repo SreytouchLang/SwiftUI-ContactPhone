@@ -11,6 +11,7 @@
 		139DCDD72B267958004883D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139DCDD62B267958004883D6 /* ContentView.swift */; };
 		139DCDD92B26795A004883D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 139DCDD82B26795A004883D6 /* Assets.xcassets */; };
 		139DCDDC2B26795A004883D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 139DCDDB2B26795A004883D6 /* Preview Assets.xcassets */; };
+		139DCDE42B269E1D004883D6 /* LBTATools in Frameworks */ = {isa = PBXBuildFile; productRef = 139DCDE32B269E1D004883D6 /* LBTATools */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				139DCDE42B269E1D004883D6 /* LBTATools in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = "SwiftUI-ContactPhone";
+			packageProductDependencies = (
+				139DCDE32B269E1D004883D6 /* LBTATools */,
+			);
 			productName = "SwiftUI-ContactPhone";
 			productReference = 139DCDD12B267958004883D6 /* SwiftUI-ContactPhone.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = 139DCDC82B267958004883D6;
+			packageReferences = (
+				139DCDE22B269E1D004883D6 /* XCRemoteSwiftPackageReference "LBTATools" */,
+			);
 			productRefGroup = 139DCDD22B267958004883D6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -344,6 +352,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		139DCDE22B269E1D004883D6 /* XCRemoteSwiftPackageReference "LBTATools" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bhlvoong/LBTATools";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.17;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		139DCDE32B269E1D004883D6 /* LBTATools */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 139DCDE22B269E1D004883D6 /* XCRemoteSwiftPackageReference "LBTATools" */;
+			productName = LBTATools;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 139DCDC92B267958004883D6 /* Project object */;
 }
