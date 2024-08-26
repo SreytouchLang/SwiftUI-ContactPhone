@@ -8,3 +8,9 @@ How to Setup UITableView Deffable Data Scoure
      b. Presenting SwiftUI UIHostingController
 4. Delete on Swipe
 5. Mark Contact as Favorite
+
+
+## App Screenshots
+
+<div style="display: flex; flex-direction: 'row';">
+<img src="./Simulator-Screenshot.png" width="30%">
